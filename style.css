@@ -1,0 +1,305 @@
+/*INDEX
+
+/* TAGs */
+body{
+    background-image: linear-gradient( rgb(72,209,204), rgb(241, 241, 241),rgb(0,255,255));
+    color: rgb(4, 23, 105);
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background: none;
+    color: rgb(255, 255, 255);
+    border: none;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{   /* "button:houver" quando o cursor estiver em cima do botão */
+    text-decoration: underline;
+}
+
+/*config do botão*/
+button.fat, button.but{
+    color: white;
+    background:mediumblue;
+    width: 150px;
+    height: 40px;
+
+    /*bordar bolada*/
+    border-radius: 60px 0;
+
+    /*sombra*/
+    box-shadow: 3px 5px;
+}
+
+button.fat:hover{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(4, 23, 105);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin: 32px 0;
+}
+
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1;
+}
+
+
+
+/*logo do canto superior*/
+header img{
+    max-height: 100px;
+    margin: 10px 100px 0px -30px ;
+    
+}
+
+
+/* CLASS */
+.fat{
+    color: white;
+    background: rgb(19, 212, 226);   
+}
+
+.hide{
+    display: none;
+}
+
+.buttons{
+    text-align: center;
+}
+
+/* caixa grande que fica do lado com os texto*/
+.idea, .depoimentos{
+    display: flex;
+
+    margin-bottom: 30px;
+
+    border-radius: 8px;
+    background-color: rgb(15, 235, 217) ;
+
+    box-shadow: 0 4px 16px  black;
+
+    padding: 32px;
+    margin: 130px 100px 0px 65px;
+    border-collapse: collapse;
+
+}
+
+
+.idea img{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 27px;
+}
+
+.idea h3{
+    margin: 0;
+}
+
+.idea p{
+    margin: 8px 0;
+    color:mediumblue;
+    font-size: 20px;
+}
+
+.idea .description{
+    margin: 16px 0;
+}
+
+/*Contatos*/
+
+.letra p{
+    color: white;
+    width: 350px;
+    height: auto;
+    border-collapse: collapse;
+
+    border-radius: 0px 60px;
+
+    box-shadow: 3px 5px;
+
+    color: mediumblue;
+}
+
+
+/* IDs */
+/*texto muda de cor mouse por cima do botão*/
+#contact, #rodape{ /* CONTATOS */
+    text-align: center;  
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    
+
+    color: rgb(255, 255, 255);
+}
+
+#contact p:hover, #rodape p:hover{
+    background: mediumblue;
+    color: rgb(253, 253, 253);
+}
+
+
+#buttons{
+    margin-top: 130px;
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+}
+
+
+#container{
+    width: 90%;
+    
+
+    margin: 40px auto;
+    display: flex;
+}
+
+#intro{
+    width: 300px;
+    margin-right: 20px;
+}
+
+/*icones redes sociais*/
+#rede img{
+    margin: 4px 35px 10px 30px;
+    padding: 0px 0px 0px 3px;
+}
+
+
+#rede{
+    color: white;
+    background:rgb(255, 255, 255);
+    width: 310px;
+    height: 40px;
+    margin: 140px 100px 10px 0px;
+
+    /*bordar bolada*/
+    border-radius: 60px 0;x
+    
+}
+
+
+/*
+    Margin: fora
+
+    Padding: dentro 
+                    */
+ /*_____________________________________________________________________________________________________________________*/
+/*quemSomos*/
+
+ /* .CLASS*/
+    
+    /*img do everest*/
+    .quemsomos img{
+        width: 600px;
+        height: 100px;
+        margin: 0px 50px 0px 30px; 
+    }
+
+    .text p{
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: mintcream;
+    }
+
+/*_____________________________________________________________________________________________________________________*/
+/*Cursos*/
+
+/*depoimentos*/
+.depoimentos{
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
+  
+}
+.depoimentos h3{
+    padding: 0px 0px 0px 10px;
+}
+
+/*_____________________________________________________________________________________________________________________*/
+/*Depoimento*/
+
+/*texto depoimento I*/
+
+ .textI p{
+     font: 100px;
+     border-collapse: collapse;
+     color: rgb(4, 0, 255);
+     margin: 0px 10px 51px 20px;
+     padding: 2px 2px;
+     text-align: center;
+
+ }
+
+/*img muié*/
+.divI img{
+    width: 150px;
+    padding: 10px;
+    border-collapse: collapse;
+    display: block;
+    margin: 2px auto;
+}
+
+.textI:hover{
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 10px 10px;
+    color: rgba(0, 0, 139, 0.363);
+    
+}
+
+/*_____________________________________________________________________________________________________________________*/
+/*Docentes*/
+.divII img{
+    width: 400px;
+    margin: 10px 20px;
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 10px 10px;
+}
+
+/*_____________________________________________________________________________________________________________________*/
+/*Resultados*/
+
+#corpo{
+    background-image: linear-gradient( rgb(72,209,204), rgb(173, 209, 209), white);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#corpo p{
+    color: rgb(0, 115, 182);
+}
+
+.divIII img{
+    width: 500px;
+    padding: 10px;
+    border-collapse: collapse;
+    display: block;
+    margin: 2px auto;
+}
+
+
+
